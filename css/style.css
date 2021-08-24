@@ -1,31 +1,40 @@
 /* selector{ propiedad:valor; propiedad:valor;} */
 body{
-    background-color: bisque;
+    background-color: #f7bd9c;
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h1{
-    background-color: black;
-    color: white !important;
+ h1{
+    background-color: #d9a17e;
+    color: #4a3020 !important;
 }
 li{
     display:inline;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: #f5a676;
+    border: 1px solid #4a3020;
     padding: 10px;
-    color: white;
+    color: #4a3020;
     cursor: pointer;
-    box-shadow: 4px 5px 3px black;
+    box-shadow: 4px 5px 3px #70625a;
     margin: 10px 10px;
 }
 #padre, ul{
-    background-color: black;
+    background-color: #f0a57a;
     display: flex;
     justify-content: space-around;
 }
 .hija{
-    background-color: aqua;
+    background-color: chocolate;
     width: 150px;
     height: 150px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#init, #add, #Status, #commit{
+    width: 18%;
+    float: left;
+    border: 5px solid chocolate;
+    box-sizing: border-box;
+    margin: 5px;
+
 }
 
