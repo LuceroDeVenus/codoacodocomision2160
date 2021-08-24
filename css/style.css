@@ -1,7 +1,9 @@
 /* selector{ propiedad:valor; propiedad:valor;} */
 body{
     background-color: #f7bd9c;
-    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
  h1{
     background-color: #d9a17e;
@@ -29,7 +31,7 @@ li{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-#init, #add, #Status, #commit{
+#init, #add, #status, #commit{
     width: 18%;
     float: left;
     border: 5px solid chocolate;
@@ -40,6 +42,14 @@ li{
 }
 span{
     background-color: chocolate;
-    color: coral;
+    color: rgb(255, 225, 214);
 }
-
+a{
+    color: rgb(190, 67, 22);
+}
+a:hover{
+    color: crimson;
+}
+a:visited{
+    color: rgb(139, 29, 51);
+}
