@@ -35,6 +35,11 @@ li{
     border: 5px solid chocolate;
     box-sizing: border-box;
     margin: 5px;
+    height: 800px;
 
+}
+span{
+    background-color: chocolate;
+    color: coral;
 }
 
