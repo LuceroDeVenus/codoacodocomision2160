@@ -1,0 +1,32 @@
+header{
+    background-image: (https://escuela-emprendedores.alegra.com/wp-content/uploads/2018/07/tipos-de-empresa-1.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+}
+nav, ul, li{
+    background-color: rgb(121, 160, 147);
+    padding: 10px;
+    display: inline;
+    margin: 15px;
+   
+}
+nav{ 
+   position: fixed;
+}
+h1{
+    background-color: rgb(234, 234, 243) ;
+    height: 50px;
+}
+article{
+    background: linear-gradient (red, pink);
+    width: 90%;
+    margin-left: 15px;
+    height: 500px;
+    margin-top: 50px;
+}
+article, h2{
+    text-align: center;
+    
+}

@@ -6,18 +6,21 @@ body{
     font-family: 'Poppins', sans-serif;
 }
  h1{
-    background-color: #d9a17e;
+    background-color: #dd986d;
     color: #4a3020 !important;
 }
 li{
     display:inline;
-    background-color: #f5a676;
+    background-color: #f8be9b;
     border: 1px solid #4a3020;
     padding: 10px;
     color: #4a3020;
     cursor: pointer;
     box-shadow: 4px 5px 3px #70625a;
     margin: 10px 10px;
+}
+li:hover{
+    background-color: transparent;
 }
 #padre, ul{
     background-color: #f0a57a;
