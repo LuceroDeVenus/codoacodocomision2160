@@ -7,11 +7,12 @@ header{
     width: 100%;
 }
 nav, ul, li{
-    background-color: rgb(121, 160, 147);
+    background-color: rgb(201, 93, 152);
     padding: 10px;
     display: inline;
     margin: 15px;
-   
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
 }
 nav{ 
    position: fixed;
