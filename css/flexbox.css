@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Montserrat+Alternates:wght@300&family=PT+Mono&display=swap');
 .principal{
      display: flex;
     flex-wrap: wrap; /* Si es linea única o multilinea */
