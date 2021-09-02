@@ -1,4 +1,9 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 header{
+    background-image: url(/Paginas/fondito.jpg);
     height: 150px;
     display: flex;
     justify-content: flex-end;
@@ -16,6 +21,14 @@ nav, ul, li{
 }
 nav{ 
    position: fixed;
+
+}
+nav, ul, li a{
+    text-decoration: none;
+    color: rgb(255, 232, 235);
+}
+nav, ul, li a:hover{
+    color: rgb(243, 174, 184);
 }
 h1{
     background-color: rgb(234, 234, 243) ;
@@ -34,3 +47,15 @@ article, h2{
     text-align: center;
     
 }
+body{
+    overflow: hidden;
+}
+footer{
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    color: lightcyan;
+} 

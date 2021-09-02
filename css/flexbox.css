@@ -1,0 +1,48 @@
+.principal{
+     display: flex;
+    flex-wrap: wrap; /* Si es linea única o multilinea */
+    justify-content: center;
+     justify-content: flex-end; /*al costado */
+    justify-content: space-around; /* solo funciona con espacio entre los elementos*/ 
+    justify-content: space-between; /*espacio en medio de cada uno*/
+    justify-content: space-evenly; /* espacio entre cada uno es igual que el otro*/
+
+    
+}
+.cuadro{
+    background-color: blueviolet;
+    width: 20%;
+     /*height: 200px;
+   margin: 10px; margen a todos lados igual
+    float: left; flotar a la izq
+    border: 20px solid yellow; border
+    box-sizing: border-box; border adentro del div*/
+    overflow: auto;
+}
+.cuadro p{
+    font-size: x-large;
+}
+.cuadro p::before{
+    content: 'a mí no me pueden copiar'; /*para que no puedan copiar el principio, agrega texto al principio e la linea*/
+}
+.cuadro p::after{
+    content: 'a mí tampoco no me pueden copiar'; /*para que no puedan copiar el final*/
+}
+.cuadro p::first-letter{ /*para editar la primer letra del párrafo*/
+    color: lightcoral;
+    padding: 2px;
+}
+footer{
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    color: lightcyan;
+}
+.letra{
+    font-family: 'Advent Pro', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'PT Mono', monospace;
+}
