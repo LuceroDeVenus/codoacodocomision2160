@@ -6,56 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boostrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-</head>
+     </head>
 <body>
-    <div class="container">
-        <div class="row">
-        <div class="col-6 bg-danger p-2 m-3"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laborum harum ipsam! Qui expedita molestiae quod voluptatem quam eum dignissimos sapiente, suscipit consequatur odio porro minima laboriosam fugiat rem corporis!</p></div> <!-- color rojo, ancho 50% -->
-        <div class="col-6 bg-black p-2"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa numquam quam expedita veniam! Quas, est cumque saepe ipsam nisi sed, numquam exercitationem qui molestias debitis aperiam commodi inventore recusandae cum?</p></div><!-- color negro, ancho 50% -->
-        <div class="col-6 bg-secondary" ><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum minima nemo dignissimos aut inventore impedit, dicta sit corrupti quidem quae, doloremque id quis recusandae ducimus, nobis earum cum molestias quo!</p></div> <!-- color gris, ancho 50% -->
-
-        <!-- va del 1 al 12 y va sumando por % -->
-    </div>
-    <div class="row">
-        <div class="col-3">
-            <img src="" alt="">
-        </div>
-        <div class="col-9"></div>
-        <div class="col-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit laboriosam est quia totam officiis ut quibusdam eius iste doloremque quisquam? Id explicabo qui, asperiores eveniet ad debitis eum vitae repudiandae?</div>
-        <div class="col-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quisquam itaque hic explicabo, non neque sequi eveniet recusandae quam quaerat ipsum culpa necessitatibus distinctio vel minima harum. Laboriosam, deserunt perspiciatis.</div>
-        <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laudantium dolor cumque laboriosam, inventore veniam cum nihil, eligendi libero id eveniet tenetur! Voluptatibus sed commodi velit, at quam praesentium ipsam!</div>
-        <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptates eum officia vitae facere nihil laudantium reprehenderit quisquam aut! Adipisci quod non sequi soluta eius voluptate debitis magni ut libero.</div>
-    </div>
-    <div class="row">
-        <div class="col-8"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ex rem incidunt id. Pariatur nostrum praesentium expedita illo minima asperiores. Doloremque fugiat velit nulla porro ad iusto cupiditate atque libero?</p></div>
-        <div class="col-4"> 
-        <div class="card" style="width: 18rem;">
-            <img src="/imágenes/20210220_180047.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Club de pescadores</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div></div></div>
-            <div class="col-4"> 
-            <div class="card" style="width: 18rem;">
-            <img src="/imágenes/20210220_180047.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Club de pescadores</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div></div></div>
-            <div class="col-4">  
-            <div class="card" style="width: 18rem;">
-            <img src="/imágenes/20210220_180047.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Club de pescadores</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a> <!-- Hacer una "card"-->
-            </div></div></div>
+  <div class="container mb-5 mt-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
           </div>
+        </div>
+      </nav>
+
+    <h1 class="text-center">Boostrap</h1>
+    <div class="row bg-info">
+      <div class="col-5 bg-otra p-2 m-3 text-white text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus deserunt neque repellat sed id nisi optio quibusdam officia provident vitae, odit ex amet iusto dolores nihil aspernatur assumenda ea consequuntur?</div><!-- color rojo, ancho 45% -->
+      <div class="col-6 bg-secondary p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi libero qui officiis repellat. Corporis, nisi accusamus reiciendis hic delectus nam enim expedita dolorum voluptatem tempora rem, ea cum ipsum unde!</div><!-- color gris, ancho 50% -->
+      <div class="col-8 bg-black p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere, pariatur explicabo repudiandae non voluptates quia, suscipit magni facilis natus beatae rem in harum excepturi vitae perspiciatis molestias unde dicta!</div><!-- color negro, ancho 75% -->
+  </div> 
+  <!-- va del 1 al 12 y va sumando por % -->
+  <div class="row bg-info">
+      <div class="col-3">
+          <img src="" alt="">
+      </div>
+      <div class="col-9">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusamus nemo exercitationem voluptas ullam impedit dolores eligendi ipsam vero tempora doloremque modi, labore quibusdam aliquam architecto iusto, quam sunt voluptatem?</p>
+
+      </div>
+      <div class="col-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusamus nemo exercitationem voluptas ullam impedit dolores eligendi ipsam vero tempora doloremque modi, labore quibusdam aliquam architecto iusto, quam sunt voluptatem?</p>
+
+      </div>
+      <div class="col-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusamus nemo exercitationem voluptas ullam impedit dolores eligendi ipsam vero tempora doloremque modi, labore quibusdam aliquam architecto iusto, quam sunt voluptatem?</p>
+
+      </div>
+      <div class="col-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus accusamus nemo exercitationem voluptas ullam impedit dolores eligendi ipsam vero tempora doloremque modi, labore quibusdam aliquam architecto iusto, quam sunt voluptatem?</p>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-8 d-flex align-items-center border border-primary">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, ratione odit blanditiis tenetur eos eaque quidem commodi enim! Eos accusantium quis id quidem est doloremque, at architecto animi fugit excepturi?</p>
+      </div>
+      <div class="card col-4" >
+          <img src="/imágenes/20210221_213528.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Club de pescadores</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Leer más!</a>
+          </div>
+      </div>
+      <div class="card col-4" >
+          <img src="/imágenes/20210221_213528.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Club de pescadores</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Leer más!</a>
+          </div>
+      </div>
+      <div class="card col-4" >
+          <img src="/imágenes/20210221_213528.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Club de pescadores</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Leer más!</a>
+          </div>
+      </div>
+      <div class="card col-4" >
+          <img src="/imágenes/20210221_213528.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Club de pescadores</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Leer más!</a> <!-- Hacer una "card"-->
+          </div>
+      </div>
+  </div>   <a href="/boostrap/contacto.html" class="btn btn-primary">Contacto</a>
+  <br><br> <!-- Para que se vea el botón-->
+    <footer class="bg-black text-white text-center pt-5 fixed-bottom"> Creado por mí uwu </footer></div> 
     
-    
-    <a href="http://" class="btn btn-primary">Botonazo</a>
-    <footer class="bg-black text-white text-center pt-5 fixed-bottom"> Creado por mí uwu </footer></div></div>
 </body>
 </html>
